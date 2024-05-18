@@ -1,5 +1,7 @@
 # EAFC VirtualPro Studio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c117e990-e7bb-4496-803c-cd4606feae0c/deploy-status)](https://app.netlify.com/sites/eafc-virtualprostudio/deploys)
+
 Welcome to VirtualPro Studio, the ultimate customization tool for your Virtual Pro in EA SPORTS FC. This web service allows you to meticulously craft your player's attributes, explore various skill trees, and save your ideal football player builds.
 
 ## Features
