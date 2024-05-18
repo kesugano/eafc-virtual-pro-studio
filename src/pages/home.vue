@@ -13,8 +13,18 @@
     </f7-navbar>
     <!-- Toolbar-->
     <f7-toolbar bottom>
-      <f7-link>Left Link</f7-link>
-      <f7-link>Right Link</f7-link>
+      <f7-link tab-link="#home" tab-link-active>
+        <f7-icon ios="f7:house_fill" aurora="f7:house_fill" md="material:home"></f7-icon>
+        <span class="tabbar-label">Home</span>
+      </f7-link>
+      <f7-link tab-link="#search">
+        <f7-icon ios="f7:search" aurora="f7:search" md="material:search"></f7-icon>
+        <span class="tabbar-label">Search</span>
+      </f7-link>
+      <f7-link tab-link="#settings">
+        <f7-icon ios="f7:settings" aurora="f7:settings" md="material:settings"></f7-icon>
+        <span class="tabbar-label">Settings</span>
+      </f7-link>
     </f7-toolbar>
     <!-- Page content-->
     <f7-block>
@@ -39,18 +49,10 @@
     </f7-block>
 
     <f7-list strong inset dividersIos>
-      <f7-list-item
-        title="Dynamic (Component) Route"
-        link="/dynamic-route/blog/45/post/125/?foo=bar#about"
-      ></f7-list-item>
-      <f7-list-item
-        title="Default Route (404)"
-        link="/load-something-that-doesnt-exist/"
-      ></f7-list-item>
-      <f7-list-item
-        title="Request Data & Load"
-        link="/request-and-load/user/123456/"
-      ></f7-list-item>
+      <f7-list-item title="Dynamic (Component) Route"
+        link="/dynamic-route/blog/45/post/125/?foo=bar#about"></f7-list-item>
+      <f7-list-item title="Default Route (404)" link="/load-something-that-doesnt-exist/"></f7-list-item>
+      <f7-list-item title="Request Data & Load" link="/request-and-load/user/123456/"></f7-list-item>
     </f7-list>
   </f7-page>
 </template>
